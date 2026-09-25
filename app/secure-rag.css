@@ -1,0 +1,12 @@
+.header-actions { display: flex; align-items: center; gap: 10px; }
+.admin-link { color: #84e7dc; font-weight: 700; text-decoration: none; border: 1px solid #27645d; border-radius: 9px; padding: 9px 12px; }
+.rag-workspace { display: grid; grid-template-columns: 1fr 1.1fr; gap: 16px; }
+.muted { color: #9aabba; line-height: 1.5; }
+.answer-panel .answer { min-height: 132px; white-space: pre-wrap; line-height: 1.6; }
+.admin-form { max-width: 760px; }
+.admin-form form { display: grid; gap: 14px; }
+.admin-form label { display: grid; gap: 7px; color: #c2d1de; font-size: 14px; font-weight: 700; }
+.admin-form input, .admin-form select { width: 100%; background: #07111e; color: #e7eef6; border: 1px solid #3a5269; border-radius: 9px; padding: 11px; }
+.admin-form input:focus, .admin-form select:focus { outline: 2px solid #31c4b1; outline-offset: 1px; }
+button:disabled { opacity: .6; cursor: wait; }
+@media (max-width: 760px) { .rag-workspace { grid-template-columns: 1fr; } .header-actions { margin-top: 14px; } }
